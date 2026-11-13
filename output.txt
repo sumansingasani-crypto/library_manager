@@ -1,0 +1,33 @@
+PS C:\Users\Pasyanthi\Downloads\library_manager> & C:\Users\Pasyanthi\AppData\Local\Programs\Python\Python315\python.exe c:/Users/Pasyanthi/Downloads/library_manager/main.py
+========== LIBRARY MANAGEMENT SYSTEM ==========
+Alice borrowed: Book: Python 101 by A. Rao (ID 1)
+Could not borrow: 'Python 101' is already borrowed.
+Alice borrowed: Magazine: Science Today, Issue 101 (ID 2)
+Alice borrowed: DVD: Python Movie, Duration 120 minutes (ID 3)
+Could not borrow: Alice has reached borrowing limit (3 items).
+Could not return: Bob has not borrowed 'Python 101'.
+
+========== LATE FEE CALCULATION ==========
+Book: Python 101 by A. Rao (ID 1) -> Late fee for 3 days: Rs 6
+Magazine: Science Today, Issue 101 (ID 2) -> Late fee for 3 days: Rs 3
+DVD: Python Movie, Duration 120 minutes (ID 3) -> Late fee for 3 days: Rs 15     
+
+========== RETURN ITEM ==========
+Alice returned: Python 101
+Late fee: Rs 6
+
+========== MEMBER BORROWED ITEMS ==========
+Alice's borrowed items: ['Science Today', 'Python Movie']
+
+========== AVAILABILITY CHECK ==========
+Book available: True
+Magazine available: False
+DVD available: False
+
+========== ENCAPSULATION ==========
+Private attribute cannot be accessed: AttributeError
+Correct way to check availability: True
+
+========== TOTAL ITEMS ==========
+Total items created: 4
+PS C:\Users\Pasyanthi\Downloads\library_manager> 
